@@ -1,0 +1,21 @@
+{
+  "name": "goblox.js",
+  "version": "0.0.10397",
+  "description": "Unoffical ROBLOX API wrapper made by Fastering18.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "keywords": [
+    "goblox"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Fastering18/Goblox.js.git"
+  },
+  "author": "Fastering18 <brahmana081@gmail.com> (https://goblox.web.app)",
+  "license": "MIT"
+}
