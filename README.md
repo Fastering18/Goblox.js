@@ -5,6 +5,8 @@ Unoffical ROBLOX API wrapper made by Fastering18.
 **Usage example**
 
 ```
+const goblox = require("goblox.js")
+
 async function test() {
     const account = await new goblox.loginCookie("_|WARNING:-DO-NOT-SHARE-THIS...").catch(console.error);
 
