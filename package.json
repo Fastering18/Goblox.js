@@ -1,6 +1,6 @@
 {
   "name": "goblox.js",
-  "version": "0.0.10397",
+  "version": "0.0.10402",
   "description": "Unoffical ROBLOX API wrapper made by Fastering18.",
   "main": "./lib/index.js",
   "scripts": {
