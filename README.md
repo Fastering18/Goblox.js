@@ -46,7 +46,10 @@ First parameter is the name of ROBLOX username/user id, if its empty, then it re
 First parameter is the name of ROBLOX username/user id, return status of the user.
 
 
-Discord: Kei#4517
-Roblox: Fastering18
-Updates: getStatus and bugfix
+Discord: Kei#4517,
+
+Roblox: Fastering18,
+
+Updates: getStatus and bugfix,
+
 Test: npm test
