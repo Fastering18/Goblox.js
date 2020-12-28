@@ -2,7 +2,7 @@
 
 Unoffical ROBLOX API wrapper made by Fastering18.
 
-**Example**
+**Usage example**
 
 ```
 async function test() {
@@ -47,9 +47,6 @@ First parameter is the name of ROBLOX username/user id, return status of the use
 
 
 Discord: Kei#4517
-
 Roblox: Fastering18
-
 Updates: getStatus and bugfix
-
 Test: npm test
