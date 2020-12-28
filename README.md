@@ -1,42 +1,55 @@
 # Goblox.js
+
 Unoffical ROBLOX API wrapper made by Fastering18.
 
-
 **Example**
+
 ```
-const goblox = require('goblox.js');
-
 async function test() {
-    const account = await new goblox(); //you can fill this with your full roblosecurity cookie
+    const account = await new goblox.loginCookie("_|WARNING:-DO-NOT-SHARE-THIS...").catch(console.error);
 
-    console.log(account.Username); //undefined because there no cookie parameter for "account"
+    console.log(account) //undefined because cookie parameter isn't correct/null
 
-    account.getAccountInfo("fastering18").then(result => {
-        console.log(JSON.stringify(result));
+    goblox.getAccountInfo("fastering18").then(re=>{
+        console.log(JSON.stringify(re))  //No need cookie parameter
+    });
+
+    goblox.getStatus("fastering18").then(r=>{
+        console.log(JSON.stringify(r))   //No need cookie parameter
     });
 }
-
 test()
 ```
 
-object result will be: 
+object result for **getAccountInfo()** will be:
 
-`
-{"UserId":467971019,  
- "Username":"Fastering18",  
- "Description":"Fastering18 from yt",  
- "Status":"A back-end developer that learn something quicker."}
-`  
+`{"UserId":467971019, "Username":"Fastering18", "Description":"Fastering18 from yt", "Status":"A back-end developer that learn something quicker."}`
+
+object result for **getStatus()** will be:
+
+`{"Status":"A back-end developer that learn something quicker."}`
+
 
 **Functions**
 
-`
-account.getAccountInfo("fastering18") //fill it with ROBLOX username
-`
+`const account = await new goblox.loginCookie("_|WARNING:-DO-NOT-SHARE..."); //fill it with your full ROBLOSECURITY (optional)`
 
-First parameter is the name of ROBLOX username, if its empty, then it return current information of current 
-.ROBLOSECURITY cookie
+Put the first parameter with your .ROBLOSECURITY cookie,
+NOTE: roblox token is not required if you only need general account info, will not include more information like presences/etc.
+
+`account.getAccountInfo("fastering18")`
+
+First parameter is the name of ROBLOX username/user id, if its empty, then it return current information of current .ROBLOSECURITY cookie
+
+`goblox.getStatus("fastering18")`
+
+First parameter is the name of ROBLOX username/user id, return status of the user.
 
 
+Discord: Kei#4517
 
-__Still on working, currently had low connection with my ISP so its still on pending update.__
+Roblox: Fastering18
+
+Updates: getStatus and bugfix
+
+Test: npm test
