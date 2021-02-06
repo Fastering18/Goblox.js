@@ -31,7 +31,7 @@ test()
 
 `{"Status":"A back-end developer that learn something quicker."}`
 
-<br>
+<br>  
 **Functions**
 
 `const account = await new goblox.loginCookie("_|WARNING:-DO-NOT-SHARE..."); //fill it with your full ROBLOSECURITY (optional)`
@@ -48,10 +48,7 @@ First parameter is the name of ROBLOX username/user id, if its empty, then it re
 First parameter is the name of ROBLOX username/user id, return status of the user.
 
 <hr>
-Discord: Kei#4517,  
-
-Roblox: Fastering18,  
-
-Updates: getStatus and bugfix,  
-
+Discord: Kei#4517  
+Roblox: Fastering18  
+Updates: getStatus and bugfix  
 Test: npm test  
