@@ -4,7 +4,7 @@ Unoffical ROBLOX API wrapper made by Fastering18.
 
 **Usage example**
 
-```
+```js
 const goblox = require("goblox.js")
 
 async function test() {
@@ -23,15 +23,15 @@ async function test() {
 test()
 ```
 
-object result for **getAccountInfo()** will be:
+- Object result for **getAccountInfo()** will be:
 
 `{"UserId":467971019, "Username":"Fastering18", "Description":"Fastering18 from yt", "Status":"A back-end developer that learn something quicker."}`
 
-object result for **getStatus()** will be:
+- Object result for **getStatus()** will be:
 
 `{"Status":"A back-end developer that learn something quicker."}`
 
-
+<br>
 **Functions**
 
 `const account = await new goblox.loginCookie("_|WARNING:-DO-NOT-SHARE..."); //fill it with your full ROBLOSECURITY (optional)`
@@ -47,11 +47,11 @@ First parameter is the name of ROBLOX username/user id, if its empty, then it re
 
 First parameter is the name of ROBLOX username/user id, return status of the user.
 
+<hr>
+Discord: Kei#4517,  
 
-Discord: Kei#4517,
+Roblox: Fastering18,  
 
-Roblox: Fastering18,
+Updates: getStatus and bugfix,  
 
-Updates: getStatus and bugfix,
-
-Test: npm test
+Test: npm test  
