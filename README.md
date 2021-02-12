@@ -4,7 +4,7 @@ Unoffical ROBLOX API wrapper made by Fastering18.
 
 **Example**
 
-```
+```js
 const goblox = require("goblox.js");
 
 async function test() {
