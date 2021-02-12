@@ -1,6 +1,6 @@
 {
   "name": "goblox.js",
-  "version": "0.0.10402",
+  "version": "0.0.15",
   "description": "Unoffical ROBLOX API wrapper made by Fastering18.",
   "main": "./lib/main.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "node-fetch": "^2.6.1"
   },
   "keywords": [
-    "goblox"
+    "goblox",
+    "robloxapi",
+    "roblox"
   ],
   "repository": {
     "type": "git",
